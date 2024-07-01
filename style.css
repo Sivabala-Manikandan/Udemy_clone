@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: "Gabarito", sans-serif;
 }
 
-.navbar{
+.navbar {
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -19,114 +19,149 @@ body{
     background-color: white;
 }
 
-.navbar__s1__title{
+.navbar__s1__title {
     color: #A435F0;
 }
 
-.navbar__s2{
+.navbar__s2 {
     border: 1px solid black;
     padding: 10px;
     border-radius: 30px;
-    width: 60%;
+    width: 63%;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.navbar__s2 input{
+.navbar__s2 input {
     outline: none;
     width: 100%;
     border: none;
     background-color: transparent;
 }
 
-.navbar__s2 input::placeholder
-{
+.navbar__s2 input::placeholder {
     color: black;
 }
 
-.navbar__s3{
+.navbar__s3 {
     display: flex;
     padding: 10px;
-    gap: 15px;
+    gap: 28px;
 }
 
-.categories{
+/* My learning popup */
+
+.mylearning {
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__popup {
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    padding: 14px;
+    top: 150%;
+    right: -60px;
+    display: none;
+    width: 170px;
+}
+
+.mylearning:hover .mylearning__popup {
+    display: block;
+}
+
+/* courses */
+
+.course {
+    position: relative;
+}
+
+.course__popup {
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    top: 150%;
+    left: -60px;
+    display: none;
+    cursor: pointer;
+    width: 170px;
+}
+
+.course:hover .course__popup {
+    display: block;
+}
+
+.categories {
     display: flex;
     padding: 10px;
     justify-content: space-around;
     border-bottom: 1px solid black;
 }
 
-.categories p{
+.categories p {
     background-color: #A435F0;
     color: white;
     padding: 10px;
     border-radius: 21px;
 }
 
-.sale-image img{
+.sale-image img {
     width: 100%;
 }
 
-.sale-image{
+.sale-image {
     position: relative;
+    z-index: -1;
 }
 
-.sale-image__offer{
+.sale-image__offer {
     padding: 20px;
     position: absolute;
     border: 2px solid black;
     background-color: white;
-    top: 140px;
+    top: 130px;
     left: 80px;
 }
 
-.recommended
-{
+.recommended{
     padding: 10px;
 }
 
-.recommended-container
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    flex-wrap: wrap;
-}
-
-.course-card
-{
-    width: 250px;
-}
-
-.course-card p del
-{
-    color: grey;
-}
-
-
-.course-card img{
+.course-card{
     width: 300px;
-    height: 60%;
 }
 
-.course-card h3, .course-card p{
+.course-card img {
+    width: 100%;
+    height: 200px;
+}
+
+.course-card h3,
+.course-card p {
     margin-top: 5px;
 }
 
-.topic{
+.recommended-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.topic {
     padding: 10px;
 }
 
-.topic-container
-{
+.topic-container {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.topic-container p{
+.topic-container p {
     border: 3px solid grey;
     padding: 10px;
     margin: 4px;
@@ -134,55 +169,52 @@ body{
     flex-basis: 24%;
 }
 
-.popular
-{
+.popular {
     padding: 10px;
 }
 
-.popular-course
-{
-
+.popular-course {
     width: 300px;
 }
 
-.popular-course img
-{
+.popular-course img {
     width: 100%;
     height: 200px;
 }
 
-.popular-course h3, .popular-course p{
+.popular-course h3,
+.popular-course p {
     margin-top: 5px;
 }
 
-.popular-course img{
+.popular-course img {
     margin-top: 10px;
 }
 
-.popular-container{
+.popular-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
 }
 
-.footer{
+.footer {
     padding: 10px;
     background-color: black;
     color: white
 }
 
-.footer-one
-{
+.footer-one {
     display: flex;
     margin: 10px
 }
 
-.footer-one__s1 p, .footer-one__s2 p{
+.footer-one__s1 p,
+.footer-one__s2 p {
     margin: 23px;
 }
 
-.footer-two{
+.footer-two {
     display: flex;
     align-items: center;
     justify-content: space-between;

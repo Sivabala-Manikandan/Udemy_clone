@@ -36,8 +36,25 @@
         </div>
 
         <div class="navbar__s3">
-            <p>Courses</p>
-            <p>My Learning</p>
+
+            <div class="course">
+                <p>Courses</p>
+
+                <div class="course__popup">
+                    <p>You did not purchased any courses yet</p>
+                </div>
+
+            </div>
+
+
+            <div class="mylearning">
+                <p>My Learning</p>
+
+                <div class="mylearning__popup">
+                    <p>You did not purchase anything yet</p>
+                </div>
+
+            </div>
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-solid fa-bell"></i>
             <i class="fa-solid fa-user"></i>
@@ -64,46 +81,46 @@
         </div>
     </div>
 
-    <!-- Recommended -->
+    <!-- Recommended Section -->
     <div class="recommended">
-        <h1 class="recommended__title">Recommended for you</h1>
+        <h1 class="Popular__title">Most Popular</h1>
         <p>Pick the best fit</p>
 
         <div class="recommended-container">
             <div class="course-card">
-                <img src="./images/computeone.jpg" alt="Web Development">
-                <h3>The Web Development Bootcamp</h3>
-                <p>Colt steele</p>
-                <p>4.6 ⭐⭐⭐⭐ (2,73,247)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
-                            class="fa-solid fa-indian-rupee-sign"></i>2499</del></p>
+                <img src="./images/popularcourse.jpg" alt="Popular Course">
+                <h3>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h3>
+                <p>Stephane Maarek</p>
+                <p>4.7 ⭐⭐⭐⭐ (208,883)</p>
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
+                            class="fa-solid fa-indian-rupee-sign"></i>3,549</del></p>
             </div>
 
             <div class="course-card">
-                <img src="./images/compute.jpg" alt="Web Development">
-                <h3>The complete 2023 PHP</h3>
-                <p>Srini vanamala</p>
-                <p>4.6 ⭐⭐⭐ (5,334)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>999 <del><i
-                            class="fa-solid fa-indian-rupee-sign"></i>6,500</del></p>
+                <img src="./images/popularcoursetwo.jpg" alt="Popular Course">
+                <h3>React - The Complete Guide 2024 (incl. Next.js, Redux)</h3>
+                <p>Academind by Maximilian Schwarzmüller</p>
+                <p>4.7 ⭐⭐⭐⭐ (2,12,837)</p>
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>599 <del><i
+                            class="fa-solid fa-indian-rupee-sign"></i>3,599</del></p>
             </div>
 
             <div class="course-card">
-                <img src="./images/computer.jpg" alt="Web Development">
-                <h3>The complete Javascript Course</h3>
-                <p>Jonas Schmedtmann</p>
-                <p>4.6 ⭐⭐⭐⭐⭐ (2,73,247)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
-                            class="fa-solid fa-indian-rupee-sign"></i>2499</del></p>
+                <img src="./images/popularcoursethree.jpg" alt="Popular Course">
+                <h3>Java 17 Masterclass: Start Coding in 2024</h3>
+                <p>Tim Buchalka</p>
+                <p>4.7 ⭐⭐⭐⭐ (1,97,596)</p>
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>648 <del><i
+                            class="fa-solid fa-indian-rupee-sign"></i>4,549</del></p>
             </div>
 
             <div class="course-card">
-                <img src="./images/udecomp.jpg" alt="Web Development">
-                <h3>Angular the complete guide 2024</h3>
-                <p>Maximilian Schwarzmüller</p>
-                <p>4.6 ⭐⭐⭐⭐ (202,207)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
-                            class="fa-solid fa-indian-rupee-sign"></i>2499</del></p>
+                <img src="./images/popularcoursefour.jpg" alt="Popular Course">
+                <h3>DevOps Beginners to Advanced with Projects</h3>
+                <p>Imran Teli</p>
+                <p>4.7 ⭐⭐⭐ (29,577)</p>
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
+                            class="fa-solid fa-indian-rupee-sign"></i>3,499</del></p>
             </div>
         </div>
     </div>
@@ -136,7 +153,7 @@
                 <h3>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h3>
                 <p>Stephane Maarek</p>
                 <p>4.7 ⭐⭐⭐⭐ (208,883)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>3,549</del></p>
             </div>
 
@@ -145,7 +162,7 @@
                 <h3>React - The Complete Guide 2024 (incl. Next.js, Redux)</h3>
                 <p>Academind by Maximilian Schwarzmüller</p>
                 <p>4.7 ⭐⭐⭐⭐ (2,12,837)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>599 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>599 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>3,599</del></p>
             </div>
 
@@ -154,7 +171,7 @@
                 <h3>Java 17 Masterclass: Start Coding in 2024</h3>
                 <p>Tim Buchalka</p>
                 <p>4.7 ⭐⭐⭐⭐ (1,97,596)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>648 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>648 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>4,549</del></p>
             </div>
 
@@ -163,7 +180,7 @@
                 <h3>DevOps Beginners to Advanced with Projects</h3>
                 <p>Imran Teli</p>
                 <p>4.7 ⭐⭐⭐ (29,577)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>3,499</del></p>
             </div>
 
@@ -172,7 +189,7 @@
                 <h3>React - The Complete Guide 2024 (incl. Next.js, Redux)</h3>
                 <p>Academind by Maximilian Schwarzmüller</p>
                 <p>4.7 ⭐⭐⭐⭐ (2,12,837)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>599 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>599 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>3,599</del></p>
             </div>
 
@@ -181,7 +198,7 @@
                 <h3>DevOps Beginners to Advanced with Projects</h3>
                 <p>Imran Teli</p>
                 <p>4.7 ⭐⭐⭐ (29,577)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>3,499</del></p>
             </div>
 
@@ -190,7 +207,7 @@
                 <h3>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02</h3>
                 <p>Stephane Maarek</p>
                 <p>4.7 ⭐⭐⭐⭐ (208,883)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>549 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>3,549</del></p>
             </div>
 
@@ -199,7 +216,7 @@
                 <h3>Java 17 Masterclass: Start Coding in 2024</h3>
                 <p>Tim Buchalka</p>
                 <p>4.7 ⭐⭐⭐⭐ (1,97,596)</p>
-                <p><i class="fa-solid fa-indian-rupee-sign"></i>649 <del><i
+                <p class="popular-course__price"><i class="fa-solid fa-indian-rupee-sign"></i>649 <del><i
                             class="fa-solid fa-indian-rupee-sign"></i>4,549</del></p>
             </div>
         </div>

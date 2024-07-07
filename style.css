@@ -156,20 +156,28 @@ body {
 
 .course-card h3,
 .course-card p {
-    margin-top: 5px;
+    margin-top: 6px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.popular-course__price{
-    padding-bottom: 15px;
+.course-card button{
+    background-color: #ECEB98;
+    margin-left: 13px;
+    margin-top: 6px;
+    padding: 5px;
+    color: black;
+    margin-bottom: 12px;
+    border: transparent;
+    outline: none;
+    font-weight: 700;
 }
 
 .recommended-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 13px;
     gap: 10px;
 }
 
@@ -221,6 +229,17 @@ body {
     padding-right: 15px;
 }
 
+.popular-course button{
+    background-color: #ECEB98;
+    margin-left: 13px;
+    margin-top: 6px;
+    padding: 5px;
+    color: black;
+    margin-bottom: 12px;
+    border: transparent;
+    outline: none;
+    font-weight: 700;
+}
 
 .popular-container {
     display: flex;

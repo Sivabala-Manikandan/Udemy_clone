@@ -32,7 +32,7 @@ body {
     border: 1px solid black;
     padding: 10px;
     border-radius: 30px;
-    width: 63%;
+    width: 60%;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -197,23 +197,44 @@ body {
     border-top-right-radius: 9px;
 }
 
+.course-card__title{
+    height: 27px;
+}
+
+.course-card__author{
+    height: 27px;
+}
+
+.course-card__ratings{
+    height: 25px;
+}
+
+.course-card__price{
+    height: 25px;
+}
+
+.course-card__btn{
+    height: 30px;
+}
+
 .course-card h3,
 .course-card p {
-    margin-top: 6px;
+    margin-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .course-card button{
+    font-size: 10px;
     background-color: #ECEB98;
     margin-left: 13px;
-    margin-top: 6px;
-    padding: 5px;
+    margin-top: 9px;
+    padding: 2px;
     color: black;
     margin-bottom: 12px;
     border: transparent;
     outline: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .recommended-container {

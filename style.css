@@ -295,6 +295,26 @@ body {
     border-top-right-radius: 9px;
 }
 
+.popular-course__tilte{
+    height: 35px;
+}
+
+.popular-course__author{
+    height: 35px;
+}
+
+.popular-course__ratings{
+    height: 35px;
+}
+
+.popular-course__price{
+    height: 35px;
+}
+
+.popular-course__btn{
+    height: 30px;
+}
+
 .popular-course h3,
 .popular-course p {
     margin-top: 5px;
@@ -312,6 +332,7 @@ body {
     border: transparent;
     outline: none;
     font-weight: 700;
+    align-items: center;
 }
 
 .popular-container {
@@ -411,7 +432,34 @@ body {
         height: 30px;
         align-items: center;
     }
+
+    .popular-course__title{
+        font-size: 14px;
+        height: 50px;
+    }
+    
+    .popular-course__author{
+        font-size: 14px;
+        height: 35px;
+    }
+    
+    .popular-course__ratings{
+        font-size: 14px;
+        height: 38px;
+    }
+    
+    .popular-course__price{
+        font-size: 14px;
+        height: 35px;
+        align-items: center;
+    }
+    
+    .popular-course__btn{
+        margin-top: 3px;
+        height: 30px;
+        align-items: center;
+    }
+
+    
 }
-
-
 /* Media Queries End*/

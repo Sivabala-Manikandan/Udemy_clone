@@ -198,19 +198,19 @@ body {
 }
 
 .course-card__title{
-    height: 27px;
+    height: 35px;
 }
 
 .course-card__author{
-    height: 27px;
+    height: 35px;
 }
 
 .course-card__ratings{
-    height: 25px;
+    height: 35px;
 }
 
 .course-card__price{
-    height: 25px;
+    height: 35px;
 }
 
 .course-card__btn{
@@ -383,5 +383,35 @@ body {
         display: block;
     }
 }
+
+@media screen and (min-width:800px){
+    .course-card__title{
+        font-size: 15px;
+        height: 46px;
+    }
+    
+    .course-card__author{
+        font-size: 14px;
+        height: 35px;
+    }
+    
+    .course-card__ratings{
+        font-size: 14px;
+        height: 38px;
+    }
+    
+    .course-card__price{
+        font-size: 14px;
+        height: 35px;
+        align-items: center;
+    }
+    
+    .course-card__btn{
+        margin-top: 3px;
+        height: 30px;
+        align-items: center;
+    }
+}
+
 
 /* Media Queries End*/
